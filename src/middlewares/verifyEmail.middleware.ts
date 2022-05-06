@@ -13,7 +13,7 @@ const verifyEmailMiddleware = async (
 
   const checkEmailExists = await userRepository.findOne({
     where: {
-      email,
+      email: email,
     },
   });
 

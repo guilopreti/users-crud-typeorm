@@ -12,7 +12,7 @@ const showUserService = async (id: string) => {
   });
 
   if (!account) {
-    throw new AppError("User not found", 400);
+    throw new AppError("User not found", 404);
   }
 
   return account;
