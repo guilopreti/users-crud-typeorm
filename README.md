@@ -2,6 +2,8 @@
 
 Nessa entrega foi desenvolvido um serviço de back-end responsável por gerenciar um CRUD de usuário utilizando TypeORM.
 
+Deploy da API: https://users-crud-typeorm.herokuapp.com/
+
 ## Endpoints do serviço:
 
 POST	/users	Criação de usuário
