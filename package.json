@@ -5,6 +5,11 @@
   "repository": "git@github.com:Kenzie-Academy-Brasil-Developers/sprint5-entrega-guilopreti.git",
   "author": "<guilherme.llopreti@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": "16.13.2",
+    "npm": "8.1.2",
+    "yarn": "1.22.17"
+  },
   "scripts": {
     "dev": "ts-node-dev --inspect --ignore-watch node_modules src/app.ts",
     "typeorm": "typeorm-ts-node-commonjs",
